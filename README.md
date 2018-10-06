@@ -23,16 +23,16 @@ Three approaches to optional list conversion (using streams).
         .flatMap(Optional::stream)
     ```
     
-**Remark**: Internally Optional::stream is implemented:
-    ```
-    public Stream<T> stream() {
-        if (!isPresent()) {
-            return Stream.empty();
-        } else {
-            return Stream.of(value);
-        }
-    }    
-    ```
+**Remark**: Internally `Optional::stream` is implemented:
+```
+public Stream<T> stream() {
+    if (!isPresent()) {
+        return Stream.empty();
+    } else {
+        return Stream.of(value);
+    }
+}    
+```
 
 
 ## tests
