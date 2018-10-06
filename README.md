@@ -1,4 +1,4 @@
-
+[![Build Status](https://travis-ci.com/mtumilowicz/java-converting-optionals-list.svg?branch=master)](https://travis-ci.com/mtumilowicz/java-converting-optionals-list)
 
 # java-converting-optionals-list
 Three approaches to Optionals list conversion (using streams).
