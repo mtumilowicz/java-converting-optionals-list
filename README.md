@@ -1,7 +1,7 @@
 
 
 # java-converting-optionals-list
-Three approaches to optional list conversion (using streams).
+Three approaches to Optionals list conversion (using streams).
 
 ## prior java 9
 * filter + map
